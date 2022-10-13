@@ -11,7 +11,6 @@ void terminarWhile(int signalNumb){
     cond=0;
 }
 int main(){
-    
     signal(12,terminarWhile);
     signal(2,hola);
     signal(19,hola);
